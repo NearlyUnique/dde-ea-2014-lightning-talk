@@ -1,0 +1,44 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+    color: #93a1a1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 20px 0;
+    color: #eee8d5;
+    font-family: "League Gothic", Impact, sans-serif;
+    line-height: 0.9em;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+h1 {
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+    font-size: 3.77em;
+}
+small {
+    display: inline-block;
+    font-size: .6em;
+    line-height: 1.2em;
+    vertical-align: top;
+}
+.slides{
+    left: 50%;
+    top: 50%;
+    overflow: visible;
+    z-index: 1;
+    text-align: center;
+}
